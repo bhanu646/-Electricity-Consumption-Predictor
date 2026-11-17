@@ -1,0 +1,40 @@
+{
+    "best_model_name": "Random Forest Regressor",
+    "metrics": [
+        {
+            "Model": "Linear Regression",
+            "MAE": 2.837,
+            "MSE": 11.778,
+            "RMSE": 3.432,
+            "R2_Score": 0.9226,
+            "Train_R2": 0.9339
+        },
+        {
+            "Model": "Decision Tree Regressor",
+            "MAE": 2.262,
+            "MSE": 7.954,
+            "RMSE": 2.82,
+            "R2_Score": 0.9477,
+            "Train_R2": 0.9817
+        },
+        {
+            "Model": "Random Forest Regressor",
+            "MAE": 1.444,
+            "MSE": 3.437,
+            "RMSE": 1.854,
+            "R2_Score": 0.9774,
+            "Train_R2": 0.9947
+        }
+    ],
+    "features": [
+        "Temperature",
+        "Humidity",
+        "Number_of_People",
+        "Previous_Day_Consumption",
+        "Appliance_Usage",
+        "Month",
+        "Day_of_Week",
+        "Is_Weekend"
+    ],
+    "consumption_90th_percentile": 51.12
+}
